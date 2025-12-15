@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swing Scene Radar - Find Swing Dance Events Worldwide</title>
+  <meta name="description" content="Discover local swing dance communities, weekly socials, workshops, and festivals. Find Lindy Hop, Balboa, Blues, and more in cities worldwide.">
+
+  <!-- Open Graph for social sharing -->
+  <meta property="og:title" content="Swing Scene Radar">
+  <meta property="og:description" content="Find swing dance events and communities worldwide">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="pill">Swing Scene Radar</div>
+    <h1>Find your next swing dance adventure</h1>
+    <p class="lead">Discover swing dance communities and festivals worldwide. Filter by when, where, and what you're looking for.</p>
+
+    <div class="search-bar">
+      <!-- Type Toggle -->
+      <div class="filter-group">
+        <label class="filter-label">What</label>
+        <div class="toggle-buttons" id="typeToggle">
+          <button type="button" class="toggle-btn active" data-value="all">All</button>
+          <button type="button" class="toggle-btn" data-value="community">Communities</button>
+          <button type="button" class="toggle-btn" data-value="festival">Festivals</button>
+          <button type="button" class="toggle-btn new-btn" data-value="new">New</button>
+        </div>
+      </div>
+
+      <!-- Location Filter -->
+      <div class="filter-group">
+        <label class="filter-label" for="locationFilter">Where</label>
+        <select id="locationFilter" aria-label="Filter by location">
+          <option value="all">Anywhere</option>
+          <optgroup label="Asia">
+            <option value="Taiwan">Taiwan</option>
+            <option value="Japan">Japan</option>
+            <option value="South Korea">South Korea</option>
+            <option value="China">China</option>
+            <option value="asia-other">Other Asia</option>
+          </optgroup>
+          <optgroup label="Europe">
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="United Kingdom">UK</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Italy">Italy</option>
+            <option value="Spain">Spain</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="europe-other">Other Europe</option>
+          </optgroup>
+          <optgroup label="Americas">
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="americas-other">Other Americas</option>
+          </optgroup>
+          <optgroup label="Other">
+            <option value="Australia">Australia</option>
+            <option value="other">Other Regions</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- Date Filter - Range Picker -->
+      <div class="filter-group">
+        <label class="filter-label">When</label>
+        <div class="date-range">
+          <input type="date" id="dateFrom" aria-label="From date" placeholder="From">
+          <span class="date-separator">-</span>
+          <input type="date" id="dateTo" aria-label="To date" placeholder="To">
+        </div>
+      </div>
+
+      <!-- Style Filter -->
+      <div class="filter-group">
+        <label class="filter-label" for="styleFilter">Style</label>
+        <select id="styleFilter" aria-label="Filter by dance style">
+          <option value="all">Any style</option>
+          <option value="lindy">Lindy Hop</option>
+          <option value="bal">Balboa</option>
+          <option value="blues">Blues</option>
+          <option value="solo">Solo Jazz</option>
+        </select>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-group filter-group-search">
+        <label class="filter-label" for="citySearch">Search</label>
+        <div class="search-wrapper">
+          <input id="citySearch" type="search" placeholder="Name or city..." aria-label="Search by name or city" autocomplete="off">
+          <ul class="search-suggestions" id="searchSuggestions"></ul>
+        </div>
+      </div>
+
+      <!-- Reset -->
+      <div class="filter-group">
+        <button id="resetFilters" type="button" class="reset-btn">Reset</button>
+      </div>
+    </div>
+
+    <div class="results-summary" id="resultsSummary"></div>
+  </header>
+
+  <main class="layout-single">
+    <section class="panel">
+      <header>
+        <div class="panel-title">Communities & Festivals</div>
+      </header>
+      <div class="list" id="mainList"></div>
+      <div class="cta" style="margin-top:12px;">
+        <div class="status-dot" style="margin: 0 auto 8px;"></div>
+        <strong>Know a community or festival?</strong>
+        <p>Add entries by editing <code>data/communities.json</code>.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script type="module" src="js/ui/events.js"></script>
+</body>
+</html>
