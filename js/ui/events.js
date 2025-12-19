@@ -1,27 +1,34 @@
 /* ===========================
-   UI Events - State, Listeners, Render
+   UI Events - State-Driven Rendering
    =========================== */
 
 import { fetchCommunities, applyVerifiedStatus, toggleVerified } from '../dataService.js';
-import { matchesStyle, matchesLocation, matchesDateRange, matchesType, countByType, getTypeLabel } from '../filters.js';
+import { countByType, getTypeLabel } from '../filters.js';
+import { getFilteredCommunities, getSuggestions } from '../logic.js';
 import { renderCard, renderSuggestion } from '../components.js';
+import {
+  getState,
+  updateFilters,
+  resetFilters,
+  setCommunities,
+  updateCommunities,
+  setHighlightedIndex,
+  getHighlightedIndex
+} from '../state.js';
 
-// Application state
-let communities = [];
-let currentType = 'all';
-let highlightedIndex = -1;
-
-// DOM element references
-const citySearch = document.getElementById('citySearch');
-const searchSuggestions = document.getElementById('searchSuggestions');
-const styleFilter = document.getElementById('styleFilter');
-const locationFilter = document.getElementById('locationFilter');
-const dateFrom = document.getElementById('dateFrom');
-const dateTo = document.getElementById('dateTo');
-const typeToggle = document.getElementById('typeToggle');
-const resetFilters = document.getElementById('resetFilters');
-const mainList = document.getElementById('mainList');
-const resultsSummary = document.getElementById('resultsSummary');
+// DOM element references (cached once at startup)
+const elements = {
+  citySearch: document.getElementById('citySearch'),
+  searchSuggestions: document.getElementById('searchSuggestions'),
+  styleFilter: document.getElementById('styleFilter'),
+  locationFilter: document.getElementById('locationFilter'),
+  dateFrom: document.getElementById('dateFrom'),
+  dateTo: document.getElementById('dateTo'),
+  typeToggle: document.getElementById('typeToggle'),
+  resetFilters: document.getElementById('resetFilters'),
+  mainList: document.getElementById('mainList'),
+  resultsSummary: document.getElementById('resultsSummary')
+};
 
 /* ===========================
    DATA LOADING
@@ -31,7 +38,7 @@ async function loadData() {
   try {
     showLoadingState();
     const data = await fetchCommunities();
-    communities = applyVerifiedStatus(data);
+    setCommunities(applyVerifiedStatus(data));
     render();
   } catch (error) {
     console.error('Error loading data:', error);
@@ -44,74 +51,59 @@ async function loadData() {
    =========================== */
 
 function showLoadingState() {
-  if (mainList) mainList.innerHTML = '<div class="loading">Loading...</div>';
+  if (elements.mainList) {
+    elements.mainList.innerHTML = '<div class="loading">Loading...</div>';
+  }
 }
 
 function showErrorState(message) {
-  if (mainList) mainList.innerHTML = `<div class="error">${message}</div>`;
+  if (elements.mainList) {
+    elements.mainList.innerHTML = `<div class="error">${message}</div>`;
+  }
 }
 
 /* ===========================
-   RENDERING
+   RENDERING (State-Driven)
    =========================== */
 
+/**
+ * Main render function
+ * Reads ONLY from state, never from DOM
+ */
 function render() {
-  const term = citySearch ? citySearch.value.trim().toLowerCase() : '';
-  const style = styleFilter ? styleFilter.value : 'all';
-  const location = locationFilter ? locationFilter.value : 'all';
-  const fromDate = dateFrom ? dateFrom.value : '';
-  const toDate = dateTo ? dateTo.value : '';
-  const hasDateFilter = fromDate || toDate;
+  const state = getState();
+  const { communities, filters } = state;
 
-  // Filter communities
-  let filtered = communities.filter(c => {
-    const cityText = (c.city || '').toLowerCase();
-    const countryText = (c.country || '').toLowerCase();
-    const nameText = (c.name || '').toLowerCase();
-
-    const matchesTerm = term === '' ||
-      cityText.includes(term) ||
-      countryText.includes(term) ||
-      nameText.includes(term);
-
-    return matchesTerm &&
-      matchesStyle(c.styles, style) &&
-      matchesLocation(c.country, location) &&
-      matchesDateRange(c.startDate, fromDate, toDate) &&
-      matchesType(c, currentType);
-  });
-
-  // Sort: festivals by startDate (soonest first), communities by city
-  filtered.sort((a, b) => {
-    if (hasDateFilter || currentType === 'festival') {
-      const dateA = a.startDate ? new Date(a.startDate) : new Date('9999-12-31');
-      const dateB = b.startDate ? new Date(b.startDate) : new Date('9999-12-31');
-      return dateA - dateB;
-    }
-    return (a.city || 'ZZZ').localeCompare(b.city || 'ZZZ');
-  });
+  // Get filtered and sorted communities using pure logic
+  const filtered = getFilteredCommunities(communities, filters);
 
   // Update results summary
-  updateResultsSummary(filtered.length);
+  updateResultsSummary(filtered.length, communities, filters.type);
 
   // Render main list
-  if (mainList) {
-    mainList.innerHTML = filtered.length
+  if (elements.mainList) {
+    elements.mainList.innerHTML = filtered.length
       ? filtered.map(c => renderCard(c)).join('')
       : '<div class="empty">No results match your search.</div>';
   }
 }
 
-function updateResultsSummary(shown) {
-  if (!resultsSummary) return;
+/**
+ * Update results summary text
+ * @param {number} shown - Number of results shown
+ * @param {Array} communities - All communities
+ * @param {string} type - Current type filter
+ */
+function updateResultsSummary(shown, communities, type) {
+  if (!elements.resultsSummary) return;
 
-  const typeTotal = countByType(communities, currentType);
-  const typeText = getTypeLabel(currentType);
+  const typeTotal = countByType(communities, type);
+  const typeText = getTypeLabel(type);
 
   if (shown === typeTotal) {
-    resultsSummary.innerHTML = `Showing <strong>${shown}</strong> ${typeText}`;
+    elements.resultsSummary.innerHTML = `Showing <strong>${shown}</strong> ${typeText}`;
   } else {
-    resultsSummary.innerHTML = `Showing <strong>${shown}</strong> of ${typeTotal} ${typeText}`;
+    elements.resultsSummary.innerHTML = `Showing <strong>${shown}</strong> of ${typeTotal} ${typeText}`;
   }
 }
 
@@ -120,65 +112,57 @@ function updateResultsSummary(shown) {
    =========================== */
 
 function updateSuggestions() {
-  if (!searchSuggestions || !citySearch) return;
+  if (!elements.searchSuggestions || !elements.citySearch) return;
 
-  const term = citySearch.value.trim().toLowerCase();
+  const state = getState();
+  const suggestions = getSuggestions(state.communities, state.filters.query);
 
-  if (term.length < 1) {
+  if (suggestions.length === 0) {
     hideSuggestions();
     return;
   }
 
-  const matches = communities.filter(c => {
-    const nameText = (c.name || '').toLowerCase();
-    const cityText = (c.city || '').toLowerCase();
-    const countryText = (c.country || '').toLowerCase();
-    return nameText.includes(term) || cityText.includes(term) || countryText.includes(term);
-  }).slice(0, 8);
-
-  if (matches.length === 0) {
-    hideSuggestions();
-    return;
-  }
-
-  searchSuggestions.innerHTML = matches.map((c, index) => renderSuggestion(c, index)).join('');
-  searchSuggestions.classList.add('active');
-  highlightedIndex = -1;
+  elements.searchSuggestions.innerHTML = suggestions.map((c, index) => renderSuggestion(c, index)).join('');
+  elements.searchSuggestions.classList.add('active');
+  setHighlightedIndex(-1);
 }
 
 function hideSuggestions() {
-  if (searchSuggestions) {
-    searchSuggestions.classList.remove('active');
-    searchSuggestions.innerHTML = '';
+  if (elements.searchSuggestions) {
+    elements.searchSuggestions.classList.remove('active');
+    elements.searchSuggestions.innerHTML = '';
   }
-  highlightedIndex = -1;
+  setHighlightedIndex(-1);
 }
 
 function selectSuggestion(name) {
-  if (citySearch) {
-    citySearch.value = name;
-  }
+  updateFilters({ query: name });
+  syncFilterToDOM('query', name);
   hideSuggestions();
   render();
 }
 
 function handleSuggestionKeydown(e) {
-  if (!searchSuggestions || !searchSuggestions.classList.contains('active')) return;
+  if (!elements.searchSuggestions || !elements.searchSuggestions.classList.contains('active')) return;
 
-  const items = searchSuggestions.querySelectorAll('li');
+  const items = elements.searchSuggestions.querySelectorAll('li');
   if (items.length === 0) return;
+
+  const currentIndex = getHighlightedIndex();
 
   if (e.key === 'ArrowDown') {
     e.preventDefault();
-    highlightedIndex = Math.min(highlightedIndex + 1, items.length - 1);
-    updateHighlight(items);
+    const newIndex = Math.min(currentIndex + 1, items.length - 1);
+    setHighlightedIndex(newIndex);
+    updateHighlight(items, newIndex);
   } else if (e.key === 'ArrowUp') {
     e.preventDefault();
-    highlightedIndex = Math.max(highlightedIndex - 1, 0);
-    updateHighlight(items);
-  } else if (e.key === 'Enter' && highlightedIndex >= 0) {
+    const newIndex = Math.max(currentIndex - 1, 0);
+    setHighlightedIndex(newIndex);
+    updateHighlight(items, newIndex);
+  } else if (e.key === 'Enter' && currentIndex >= 0) {
     e.preventDefault();
-    const selected = items[highlightedIndex];
+    const selected = items[currentIndex];
     if (selected) {
       selectSuggestion(selected.dataset.name);
     }
@@ -187,19 +171,58 @@ function handleSuggestionKeydown(e) {
   }
 }
 
-function updateHighlight(items) {
+function updateHighlight(items, highlightedIndex) {
   items.forEach((item, index) => {
     item.classList.toggle('highlighted', index === highlightedIndex);
   });
 }
 
 /* ===========================
-   VERIFIED TOGGLE HANDLER
+   STATE <-> DOM SYNC
    =========================== */
 
-function handleVerifyClick(username) {
-  communities = toggleVerified(communities, username);
-  render();
+/**
+ * Sync a filter value back to its DOM element
+ * Used when state changes programmatically (e.g., selecting suggestion)
+ */
+function syncFilterToDOM(filterName, value) {
+  switch (filterName) {
+    case 'query':
+      if (elements.citySearch) elements.citySearch.value = value;
+      break;
+    case 'style':
+      if (elements.styleFilter) elements.styleFilter.value = value;
+      break;
+    case 'location':
+      if (elements.locationFilter) elements.locationFilter.value = value;
+      break;
+    case 'dateFrom':
+      if (elements.dateFrom) elements.dateFrom.value = value;
+      break;
+    case 'dateTo':
+      if (elements.dateTo) elements.dateTo.value = value;
+      break;
+    case 'type':
+      if (elements.typeToggle) {
+        elements.typeToggle.querySelectorAll('.toggle-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.value === value);
+        });
+      }
+      break;
+  }
+}
+
+/**
+ * Sync all filters to DOM (used after reset)
+ */
+function syncAllFiltersToDOM() {
+  const state = getState();
+  syncFilterToDOM('query', state.filters.query);
+  syncFilterToDOM('style', state.filters.style);
+  syncFilterToDOM('location', state.filters.location);
+  syncFilterToDOM('dateFrom', state.filters.dateFrom);
+  syncFilterToDOM('dateTo', state.filters.dateTo);
+  syncFilterToDOM('type', state.filters.type);
 }
 
 /* ===========================
@@ -207,32 +230,33 @@ function handleVerifyClick(username) {
    =========================== */
 
 // Type toggle buttons
-if (typeToggle) {
-  typeToggle.addEventListener('click', (e) => {
+if (elements.typeToggle) {
+  elements.typeToggle.addEventListener('click', (e) => {
     if (e.target.classList.contains('toggle-btn')) {
-      typeToggle.querySelectorAll('.toggle-btn').forEach(btn => btn.classList.remove('active'));
+      elements.typeToggle.querySelectorAll('.toggle-btn').forEach(btn => btn.classList.remove('active'));
       e.target.classList.add('active');
-      currentType = e.target.dataset.value;
+      updateFilters({ type: e.target.dataset.value });
       render();
     }
   });
 }
 
-// Search autocomplete listeners
-if (citySearch) {
-  citySearch.addEventListener('input', () => {
+// Search input
+if (elements.citySearch) {
+  elements.citySearch.addEventListener('input', (e) => {
+    updateFilters({ query: e.target.value });
     updateSuggestions();
     render();
   });
-  citySearch.addEventListener('keydown', handleSuggestionKeydown);
-  citySearch.addEventListener('blur', () => {
+  elements.citySearch.addEventListener('keydown', handleSuggestionKeydown);
+  elements.citySearch.addEventListener('blur', () => {
     setTimeout(hideSuggestions, 150);
   });
 }
 
 // Click on suggestion
-if (searchSuggestions) {
-  searchSuggestions.addEventListener('click', (e) => {
+if (elements.searchSuggestions) {
+  elements.searchSuggestions.addEventListener('click', (e) => {
     const li = e.target.closest('li');
     if (li) {
       selectSuggestion(li.dataset.name);
@@ -240,40 +264,55 @@ if (searchSuggestions) {
   });
 }
 
-// Other filter listeners
-[styleFilter, locationFilter, dateFrom, dateTo].filter(el => el).forEach(el => {
-  el.addEventListener('input', render);
-  el.addEventListener('change', render);
-});
-
-// Reset button
-if (resetFilters) {
-  resetFilters.addEventListener('click', () => {
-    if (citySearch) citySearch.value = '';
-    if (styleFilter) styleFilter.value = 'all';
-    if (locationFilter) locationFilter.value = 'all';
-    if (dateFrom) dateFrom.value = '';
-    if (dateTo) dateTo.value = '';
-
-    currentType = 'all';
-    if (typeToggle) {
-      typeToggle.querySelectorAll('.toggle-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.value === 'all');
-      });
-    }
-
+// Style filter
+if (elements.styleFilter) {
+  elements.styleFilter.addEventListener('change', (e) => {
+    updateFilters({ style: e.target.value });
     render();
   });
 }
 
-// Delegated click handler for verify buttons (no inline onclick)
-if (mainList) {
-  mainList.addEventListener('click', (e) => {
+// Location filter
+if (elements.locationFilter) {
+  elements.locationFilter.addEventListener('change', (e) => {
+    updateFilters({ location: e.target.value });
+    render();
+  });
+}
+
+// Date filters
+if (elements.dateFrom) {
+  elements.dateFrom.addEventListener('change', (e) => {
+    updateFilters({ dateFrom: e.target.value });
+    render();
+  });
+}
+
+if (elements.dateTo) {
+  elements.dateTo.addEventListener('change', (e) => {
+    updateFilters({ dateTo: e.target.value });
+    render();
+  });
+}
+
+// Reset button
+if (elements.resetFilters) {
+  elements.resetFilters.addEventListener('click', () => {
+    resetFilters();
+    syncAllFiltersToDOM();
+    render();
+  });
+}
+
+// Delegated click handler for verify buttons (event delegation, no inline onclick)
+if (elements.mainList) {
+  elements.mainList.addEventListener('click', (e) => {
     const verifyBtn = e.target.closest('.verify-btn');
     if (verifyBtn) {
       const username = verifyBtn.dataset.username;
       if (username) {
-        handleVerifyClick(username);
+        updateCommunities(communities => toggleVerified(communities, username));
+        render();
       }
     }
   });
