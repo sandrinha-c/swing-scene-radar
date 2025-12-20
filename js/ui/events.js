@@ -2,7 +2,7 @@
    UI Events - State-Driven Rendering
    =========================== */
 
-import { fetchCommunities, applyVerifiedStatus, toggleVerified } from '../dataService.js';
+import { fetchCommunities } from '../dataService.js';
 import { countByType, getTypeLabel } from '../filters.js';
 import { getFilteredCommunities, getSuggestions } from '../logic.js';
 import { renderCard, renderSuggestion } from '../components.js';
@@ -11,7 +11,6 @@ import {
   updateFilters,
   resetFilters,
   setCommunities,
-  updateCommunities,
   setHighlightedIndex,
   getHighlightedIndex
 } from '../state.js';
@@ -38,7 +37,7 @@ async function loadData() {
   try {
     showLoadingState();
     const data = await fetchCommunities();
-    setCommunities(applyVerifiedStatus(data));
+    setCommunities(data);
     render();
   } catch (error) {
     console.error('Error loading data:', error);
@@ -304,19 +303,6 @@ if (elements.resetFilters) {
   });
 }
 
-// Delegated click handler for verify buttons (event delegation, no inline onclick)
-if (elements.mainList) {
-  elements.mainList.addEventListener('click', (e) => {
-    const verifyBtn = e.target.closest('.verify-btn');
-    if (verifyBtn) {
-      const username = verifyBtn.dataset.username;
-      if (username) {
-        updateCommunities(communities => toggleVerified(communities, username));
-        render();
-      }
-    }
-  });
-}
 
 /* ===========================
    INITIALIZATION

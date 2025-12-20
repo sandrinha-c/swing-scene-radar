@@ -52,9 +52,6 @@ const CommunitySchema = z.object({
   username: z.string().optional(),
   entityType: EntityTypeEnum.catch('community').default('community'),
 
-  // Status
-  verified: z.boolean().default(false),
-
   // Contact & links (nullable to handle legacy null values)
   instagram: z.string().url().nullable().optional(),
   website: z.string().url().nullable().optional(),
@@ -125,7 +122,6 @@ function normalizeCommunity(data) {
     country: input.country || 'Unknown',
     username: input.username,
     entityType,
-    verified: Boolean(input.verified),
     instagram: input.instagram,
     website: input.website,
     linktree: input.linktree,

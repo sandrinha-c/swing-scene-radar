@@ -105,11 +105,6 @@ export function matchesType(entry, value) {
 
   const entityType = entry.entityType;
 
-  // "new" filter: show hybrids (newly discovered communities) and unverified entries
-  if (value === 'new') {
-    return entityType === 'hybrid' || entry.verified === false;
-  }
-
   if (!entityType) return value === 'community'; // Default to community
 
   if (value === 'community') {

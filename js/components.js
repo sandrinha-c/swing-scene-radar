@@ -164,7 +164,6 @@ export function renderCard(c) {
         ${c.instagram ? `<a class="inline-link" href="${c.instagram}" target="_blank" rel="noopener">Instagram</a>` : ''}
         ${c.website ? `<a class="inline-link" href="${c.website}" target="_blank" rel="noopener">Website</a>` : ''}
         ${c.linktree ? `<a class="inline-link" href="${c.linktree}" target="_blank" rel="noopener">Links</a>` : ''}
-        <button class="verify-btn ${c.verified ? 'verified' : ''}" data-username="${c.username}">${c.verified ? 'Verified' : 'Mark Verified'}</button>
       </div>
     </article>
   `;
