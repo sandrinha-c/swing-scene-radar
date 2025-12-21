@@ -42,6 +42,8 @@ logs/
 # Database files (for local development in Phase 2+)
 *.sqlite
 *.db
+*.db-shm
+*.db-wal
 
 # Backup files
 *.bak

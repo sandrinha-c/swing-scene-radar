@@ -94,3 +94,17 @@ export function getFilteredCommunities(communities, filters) {
   const filtered = filterCommunities(communities, filters);
   return sortCommunities(filtered, filters);
 }
+
+/**
+ * Filter out past events from an array
+ * Defensive filter to ensure stale data doesn't show past events
+ *
+ * @param {Array} events - Array of event objects with date field (YYYY-MM-DD)
+ * @returns {Array} Future events only (today or later)
+ */
+export function filterFutureEvents(events) {
+  if (!events || !Array.isArray(events)) return [];
+
+  const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+  return events.filter(e => e.date && e.date >= today);
+}

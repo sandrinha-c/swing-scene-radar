@@ -3,6 +3,7 @@
    =========================== */
 
 import { formatLocation, formatDateRange, formatEventDate } from './formatters.js';
+import { filterFutureEvents } from './logic.js';
 
 // Event type emoji mapping
 const TYPE_EMOJI = {
@@ -61,9 +62,12 @@ function renderEvent(event) {
  * @returns {string} HTML string
  */
 export function renderUpcomingEvents(events, entityType, dates, website, instagram, social) {
+  // Defensive filter: remove past events (in case data is stale)
+  const futureEvents = filterFutureEvents(events);
+
   // Scraped events take priority
-  if (events && events.length > 0) {
-    const eventItems = events.slice(0, 4).map(e => `<li>${renderEvent(e)}</li>`).join('');
+  if (futureEvents && futureEvents.length > 0) {
+    const eventItems = futureEvents.slice(0, 4).map(e => `<li>${renderEvent(e)}</li>`).join('');
     return `
       <div class="upcoming-events">
         <strong>Upcoming:</strong>
