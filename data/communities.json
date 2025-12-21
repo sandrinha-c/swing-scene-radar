@@ -104,7 +104,7 @@
       "website": null,
       "linktree": null,
       "scraped": {
-        "lastScraped": "2025-12-11T17:33:37.465Z",
+        "lastScraped": "2025-12-21T04:45:09.344Z",
         "confidence": "high",
         "scheduleDetected": null,
         "scheduleDescription": null,
@@ -409,9 +409,9 @@
       ],
       "instagram": "https://instagram.com/blues20taipei",
       "website": null,
-      "linktree": null,
+      "linktree": "https://linktr.ee/blues20taipei",
       "scraped": {
-        "lastScraped": "2025-12-11T18:04:20.415Z",
+        "lastScraped": "2025-12-19T09:49:11.509Z",
         "upcomingEvents": [
           {
             "date": "2025-12-20",
@@ -421,7 +421,7 @@
           },
           {
             "date": "2025-12-20",
-            "title": "Blues Dance Taster 新手體驗課",
+            "title": "Blues Dance 體驗課",
             "type": "trial",
             "sourceUrl": "https://docs.google.com/forms/d/14N5607Ig2FlYODKGsJ8JGoMV_A7HoWywYW-bkt928wQ/viewform?edit_requested=true"
           }
@@ -3480,9 +3480,9 @@
       ],
       "instagram": "https://instagram.com/naughtyswing",
       "website": null,
-      "linktree": null,
+      "linktree": "https://linktr.ee/naughtyswing",
       "scraped": {
-        "lastScraped": "2025-12-11T17:40:37.760Z",
+        "lastScraped": "2025-12-21T04:35:38.370Z",
         "confidence": "high",
         "scheduleDetected": null,
         "scheduleDescription": null,
@@ -4599,10 +4599,10 @@
         "solo"
       ],
       "instagram": "https://instagram.com/swingtaiwan",
-      "website": null,
+      "website": "https://swingtaiwan.shoplineapp.com",
       "linktree": null,
       "scraped": {
-        "lastScraped": "2025-12-11T18:03:15.846Z",
+        "lastScraped": "2025-12-21T04:36:29.365Z",
         "scheduleDetected": "每週五",
         "scheduleDescription": "室內新手體驗",
         "upcomingEvents": [
@@ -4978,9 +4978,9 @@
       ],
       "instagram": "https://instagram.com/taplifecafe",
       "website": null,
-      "linktree": null,
+      "linktree": "https://linktr.ee/taplifestudio",
       "scraped": {
-        "lastScraped": "2025-12-11T17:39:03.123Z",
+        "lastScraped": "2025-12-21T04:36:23.487Z",
         "confidence": "high",
         "scheduleDetected": null,
         "scheduleDescription": null,
