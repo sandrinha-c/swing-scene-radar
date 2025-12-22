@@ -5,7 +5,7 @@
  */
 
 const { z } = require('zod');
-const { EntityTypeEnum, StyleEnum } = require('./enums');
+const { EntityTypeEnum, StyleEnum, EntitySourceEnum } = require('./enums');
 const { ScrapedSchema, normalizeScraped } = require('./scraped');
 
 // Date format: YYYY-MM-DD
@@ -63,8 +63,12 @@ const CommunitySchema = z.object({
   styles: z.array(StyleEnum).default([]),
   notes: z.string().optional(),
   region: z.string().optional(),
-  source: z.string().optional(),
+  source: EntitySourceEnum.optional(), // How entity was discovered (seed, swingplanit, graph)
   followers: z.number().optional(),
+
+  // Festivals hosted by this entity (for hybrid entities)
+  festivals: z.array(z.string()).optional(),
+  festivalWebsite: z.string().url().optional(), // SwingPlanIt source URL
 
   // Festival-specific fields
   startDate: z.string().regex(DATE_REGEX).optional(),
@@ -132,6 +136,8 @@ function normalizeCommunity(data) {
     region: input.region,
     source: input.source,
     followers: typeof input.followers === 'number' ? input.followers : undefined,
+    festivals: Array.isArray(input.festivals) ? input.festivals : undefined,
+    festivalWebsite: input.festivalWebsite,
     startDate: input.startDate,
     endDate: input.endDate,
     dates: input.dates,

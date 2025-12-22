@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "lastUpdated": "2025-12-19",
-  "lastValidated": "2025-12-19",
+  "lastUpdated": "2025-12-22",
+  "lastValidated": "2025-12-22",
   "communities": [
     {
       "username": "btswing.dance",
@@ -104,7 +104,7 @@
       "website": null,
       "linktree": null,
       "scraped": {
-        "lastScraped": "2025-12-21T04:45:09.344Z",
+        "lastScraped": "2025-12-11T17:33:37.465Z",
         "confidence": "high",
         "scheduleDetected": null,
         "scheduleDescription": null,
@@ -412,7 +412,20 @@
       "linktree": "https://linktr.ee/blues20taipei",
       "scraped": {
         "lastScraped": "2025-12-19T09:49:11.509Z",
-        "upcomingEvents": [],
+        "upcomingEvents": [
+          {
+            "date": "2025-12-20",
+            "title": "Blues Dance Party新手體驗課",
+            "type": "trial",
+            "sourceUrl": "https://linktr.ee/blues20taipei?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntECQ9HTOb_n5wBpGa2zBWn51sk-8Ojo3k8ufWWFJhIlng9BkVS-RqM-Prs8_aem_7Wo7ss2gPz0l5CUWVeVS3g"
+          },
+          {
+            "date": "2025-12-20",
+            "title": "Blues Dance 體驗課",
+            "type": "trial",
+            "sourceUrl": "https://docs.google.com/forms/d/14N5607Ig2FlYODKGsJ8JGoMV_A7HoWywYW-bkt928wQ/viewform?edit_requested=true"
+          }
+        ],
         "upcomingDates": [
           "2025-12-20",
           "2025-12-20"
@@ -1047,10 +1060,22 @@
         "scheduleDescription": "Friday night social",
         "upcomingEvents": [
           {
+            "date": "2025-12-19",
+            "title": "Swing Dance 新手體驗",
+            "type": "trial",
+            "sourceUrl": "https://www.fridayswing.tw/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnEE1Sv-pPWxfBf3tTWZyQXZLmkCis8PeLUD8S6JCcpSk-Amk7fs6pPtxvoOU_aem_Gf_3us4adLI1ce29spQWew"
+          },
+          {
             "date": "2026-03-01",
             "title": "2026 Spring Hop 花現搖擺",
             "type": "festival",
             "sourceUrl": "https://www.fridayswing.tw/Activity2.aspx"
+          },
+          {
+            "date": "2026-03-01",
+            "title": "2026 Spring Hop 花現搖擺",
+            "type": "social",
+            "sourceUrl": "https://www.fridayswing.tw/Ct0003.aspx?BigCatID=246d786f-3489-4b81-aef6-0b22033c5b87&CatID=7c2a6560-7747-418b-8930-76362a0ef841"
           },
           {
             "date": "2026-03-01",
@@ -1138,7 +1163,7 @@
       "name": "Glasgow Lindy Hoppers",
       "city": "Glasgow",
       "country": "United Kingdom",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "bal",
@@ -1287,20 +1312,52 @@
         "lindy"
       ],
       "instagram": "https://instagram.com/grenoble_swing",
-      "website": "https://www.grenobleswing.com",
+      "website": "https://grenobleswing.com",
       "linktree": null,
       "scraped": {
-        "lastScraped": "2025-12-19T05:16:44.749Z",
-        "upcomingEvents": [],
+        "lastScraped": "2025-12-22T18:09:08.080Z",
+        "upcomingEvents": [
+          {
+            "date": "2026-01-09",
+            "title": "Super Flow On 2026",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/3569060-super-flow-on-2026"
+          },
+          {
+            "date": "2026-01-10",
+            "title": "Super Flow On 2026",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/3569060-super-flow-on-2026"
+          },
+          {
+            "date": "2026-01-11",
+            "title": "Super Flow On 2026",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/3569060-super-flow-on-2026"
+          },
+          {
+            "date": "2026-11-15",
+            "title": "Let It Slow Balboa",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/3413380-let-it-slow-balboa"
+          },
+          {
+            "date": "2026-11-16",
+            "title": "Let It Slow Balboa",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/3413380-let-it-slow-balboa"
+          }
+        ],
         "upcomingDates": []
-      }
+      },
+      "email": "tshirts@grenobleswing.com"
     },
     {
       "username": "hepcatclub",
       "name": "Hep Cat Club",
       "city": "Augsburg",
       "country": "Germany",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "bal",
@@ -1552,7 +1609,7 @@
       "name": "Hoodoo Blues",
       "city": "Newcastle upon Tyne",
       "country": "United Kingdom",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "blues"
@@ -1563,6 +1620,12 @@
       "scraped": {
         "lastScraped": "2025-12-19T05:16:38.670Z",
         "upcomingEvents": [
+          {
+            "date": "2025-12-20",
+            "title": "Monthly social at the Globe, Newcastle",
+            "type": "social",
+            "sourceUrl": "http://www.hoodooblues.dance/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnf4KRjPAefq8NpxyTwWMcAUILeSLFdg9cDKxQ5qx1klc3IW51uUokHQr49pI_aem__022OwZLGzYzzXf5Ds8xvw"
+          },
           {
             "date": "2026-09-18",
             "title": "Belta Weekender",
@@ -1580,6 +1643,24 @@
             "title": "Belta Weekender",
             "type": "festival",
             "sourceUrl": "http://www.hoodooblues.dance/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnf4KRjPAefq8NpxyTwWMcAUILeSLFdg9cDKxQ5qx1klc3IW51uUokHQr49pI_aem__022OwZLGzYzzXf5Ds8xvw"
+          },
+          {
+            "date": "2025-12-20",
+            "title": "Hoodoo Blues - Christmas dance class, band and party",
+            "type": "class",
+            "sourceUrl": "https://www.eventbrite.co.uk/d/united-kingdom--newcastle-upon-tyne/hoodoo-blues/"
+          },
+          {
+            "date": "2025-12-20",
+            "title": "Christmas dance class, band and party",
+            "type": "class",
+            "sourceUrl": "https://www.eventbrite.co.uk/e/1939581503489"
+          },
+          {
+            "date": "2025-12-20",
+            "title": "Monthly Social at the Globe, Newcastle",
+            "type": "social",
+            "sourceUrl": "https://www.hoodooblues.dance"
           }
         ],
         "upcomingDates": []
@@ -1915,6 +1996,18 @@
             "sourceUrl": "https://jazzberry.swingwings.cz/#rozvrh"
           },
           {
+            "date": "2026-02-07",
+            "title": "Saturday Classes (multiple levels, topics, teachers, styles)",
+            "type": "class",
+            "sourceUrl": "https://jazzberry.swingwings.cz/#registration"
+          },
+          {
+            "date": "2026-02-08",
+            "title": "Sunday Classes (11:00 - 14:00)",
+            "type": "class",
+            "sourceUrl": "https://jazzberry.swingwings.cz/#registration"
+          },
+          {
             "date": "2026-02-08",
             "title": "Sunday Chill (hangover soup, coffee, talks and live music)",
             "type": "social",
@@ -1934,7 +2027,7 @@
       "name": "Jitterbugs Delight",
       "city": "Basel",
       "country": "Switzerland",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "lindy",
@@ -2113,7 +2206,7 @@
       "name": "Jump Up North Festival",
       "city": "Hamburg",
       "country": "Germany",
-      "entityType": "hybrid",
+      "entityType": "festival",
       "region": "europe",
       "styles": [
         "solo"
@@ -2454,7 +2547,7 @@
       "name": "Leapin’ Lindy",
       "city": "Bern",
       "country": "Switzerland",
-      "entityType": "hybrid",
+      "entityType": "festival",
       "region": "europe",
       "styles": [
         "lindy"
@@ -2532,7 +2625,7 @@
       "name": "Lindy Focus",
       "city": "Asheville",
       "country": "United States",
-      "entityType": "hybrid",
+      "entityType": "festival",
       "region": "north-america",
       "styles": [
         "lindy",
@@ -2664,7 +2757,7 @@
       "name": "LindyPott",
       "city": "Dortmund",
       "country": "Germany",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "bal",
@@ -2679,6 +2772,12 @@
       "scraped": {
         "lastScraped": "2025-12-19T05:16:39.104Z",
         "upcomingEvents": [
+          {
+            "date": "2025-12-20",
+            "title": "Freies Training Solo Jazz in Dortmund",
+            "type": "class",
+            "sourceUrl": "http://www.lindypott.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnNiNsrkIddwu52LomQr-kUhcGU4nLlID2UvvO5qGaDCgn93iUHGpF6LWACps_aem_msbyLsZ8VbzAujD6_TtBEw"
+          },
           {
             "date": "2026-01-10",
             "title": "Slow Bal Weekender mit Deirdre und Joost (NL) (in Essen)",
@@ -2822,6 +2921,12 @@
             "title": "Lindy Hop Schnupper‑Einstiegswochenende (Einsteiger/Beginner) – Essen",
             "type": "trial",
             "sourceUrl": "https://www.lindypott.de/workshops-im-ueberblick.html"
+          },
+          {
+            "date": "2025-12-19",
+            "title": "LAB: Lindy Lab + After Work Social Dance freitags in Essen",
+            "type": "class",
+            "sourceUrl": "https://www.lindypott.de/kalender.html?ort=BO,DO,E&art=3"
           },
           {
             "date": "2025-12-31",
@@ -2972,7 +3077,7 @@
       "name": "Ländle Hop",
       "city": "Dornbirn",
       "country": "Austria",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "bal",
@@ -3409,7 +3514,7 @@
       "website": null,
       "linktree": "https://linktr.ee/naughtyswing",
       "scraped": {
-        "lastScraped": "2025-12-21T04:35:38.370Z",
+        "lastScraped": "2025-12-11T17:40:37.760Z",
         "confidence": "high",
         "scheduleDetected": null,
         "scheduleDescription": null,
@@ -3930,7 +4035,7 @@
       "name": "Shake That Swing",
       "city": "Paris",
       "country": "France",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "lindy",
@@ -4209,7 +4314,7 @@
       "name": "Studio Hop",
       "city": "Toulouse",
       "country": "France",
-      "entityType": "hybrid",
+      "entityType": "community",
       "region": "europe",
       "styles": [
         "blues",
@@ -4388,6 +4493,12 @@
             "title": "搖擺聖誕心願夜｜Swingin’ Christmas Night",
             "type": "social",
             "sourceUrl": "https://linktr.ee/swingformosa?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnbYXV2wl29p9x8vUXi5u6tvZHSIOjZAejjZIgNGKuOWHU9ucH8--TKg-aEC4_aem_UWcYtrzcSDO5A695-4IJzQ"
+          },
+          {
+            "date": "2025-12-21",
+            "title": "【搖擺聖誕心願夜｜Swingin’ Christmas Night】",
+            "type": "social",
+            "sourceUrl": "https://linktr.ee/swingformosa"
           }
         ],
         "upcomingDates": [
@@ -4523,7 +4634,7 @@
       "website": "https://swingtaiwan.shoplineapp.com",
       "linktree": null,
       "scraped": {
-        "lastScraped": "2025-12-21T04:36:29.365Z",
+        "lastScraped": "2025-12-11T18:03:15.846Z",
         "scheduleDetected": "每週五",
         "scheduleDescription": "室內新手體驗",
         "upcomingEvents": [
@@ -4556,6 +4667,12 @@
             "title": "Swing Dance 中階課程 – M&M (Momentum & Musicality)",
             "type": "class",
             "sourceUrl": "https://docs.google.com/forms/d/e/1FAIpQLSclMacrJpaEP5cf02S-9qnkLmkCrf3PSHkHk_7ypevGnYJr3g/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntpU3f97bp0_WmTgCqBbs1jheiWrlbiL3Pc5kclyWYSSxs0jWUYC_GkHecLk_aem_BM-jt0vnHl3BYD4be7QtYw"
+          },
+          {
+            "date": "2025-12-20",
+            "title": "SwingTaiwan 聖誕舞會",
+            "type": "social",
+            "sourceUrl": "https://swingtaiwan.shoplineapp.com/products/swingtaiwan-2025xmas-mm?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn6slWMvgWwcEK9Wblq0OY5kCNqL9GfARgr9QjvSJXvKPdwv9VaPCMZ-Pyw-s_aem_jtTyVIZ5JTv9xtx5SzkOZA"
           },
           {
             "date": "2025-12-25",
@@ -4895,11 +5012,17 @@
       "website": null,
       "linktree": "https://linktr.ee/taplifestudio",
       "scraped": {
-        "lastScraped": "2025-12-21T04:36:23.487Z",
+        "lastScraped": "2025-12-11T17:39:03.123Z",
         "confidence": "high",
         "scheduleDetected": null,
         "scheduleDescription": null,
         "upcomingEvents": [
+          {
+            "date": "2025-12-20",
+            "title": "Hua's Solo Open Class 中級",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/utiiUPAmYfhLuMcr9?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnCuxr14On5UwDIoyfHz9uHG_IP_7bPhDtAwCXAy-3uBFokclkiE5ONjizsF8_aem_L3OLO805nQKpO05EsGeyIw"
+          },
           {
             "date": "2025-12-23",
             "title": "Body Craft Intensive｜形狀 × 協調 × 呈現",
@@ -5523,6 +5646,12 @@
         "scheduleDetected": "每週三19:30~21:30",
         "scheduleDescription": "日舞的練習團",
         "upcomingEvents": [
+          {
+            "date": "2025-12-19",
+            "title": "2025日舞台南十二月入門基礎班SWING DANCE Beginner-Level A Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/22kfQD6bQpaE2AHf8"
+          },
           {
             "date": "2025-12-26",
             "title": "2025日舞台南十二月入門基礎班SWING DANCE Beginner-Level A Class",

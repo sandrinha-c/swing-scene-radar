@@ -107,6 +107,24 @@ const CANDIDATE_STATUSES = [
 const CandidateStatusEnum = z.enum(CANDIDATE_STATUSES);
 
 // ============================================
+// ENTITY SOURCES (how we discovered this entity)
+// ============================================
+
+/**
+ * How this entity was added to the system.
+ * - seed: Manually added (e.g., Taiwan communities)
+ * - swingplanit: Imported from SwingPlanIt festival directory
+ * - graph: Discovered via social graph exploration
+ */
+const ENTITY_SOURCES = [
+  'seed',
+  'swingplanit',
+  'graph'
+];
+
+const EntitySourceEnum = z.enum(ENTITY_SOURCES);
+
+// ============================================
 // SUBMISSION TYPES (for future user submissions)
 // ============================================
 
@@ -126,6 +144,7 @@ module.exports = {
   STYLE_CODES,
   CONFIDENCE_LEVELS,
   CANDIDATE_STATUSES,
+  ENTITY_SOURCES,
   SUBMISSION_TYPES,
 
   // Zod enums (for validation)
@@ -134,5 +153,6 @@ module.exports = {
   StyleEnum,
   ConfidenceEnum,
   CandidateStatusEnum,
+  EntitySourceEnum,
   SubmissionTypeEnum
 };

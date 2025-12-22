@@ -58,11 +58,17 @@ CommunityWebsite/
 │   └── communities.json       # Community/festival data with events
 ├── backend/
 │   ├── refresh-all.js         # Main scraping orchestrator
-│   ├── parse-external.js      # Parse external links with LLM
-│   ├── parse-with-llm.js      # Parse IG posts with LLM
+│   ├── process-scraped.js     # Enrich scraped data with OCR + LLM
+│   ├── test-scrape-one.js     # Scrape single IG profile (screenshot + bio)
+│   ├── investigate-festivals.js # One-time festival → hybrid detection
+│   ├── test-llm-classify.js   # OCR + LLM classification testing
+│   ├── parse-with-llm.js      # Parse IG posts with LLM (legacy)
+│   ├── lib/ocr.js             # OCR extraction + classification
 │   ├── normalize/             # Output normalization module
 │   ├── dedupe-merge/          # Event deduplication
 │   ├── pipeline/              # Job runner + audit logging
+│   ├── sync/                  # Data sync utilities
+│   │   └── to-frontend.js     # Export SQLite → communities.json
 │   └── storage/               # Data persistence layer
 ├── scripts/
 │   └── smoke.js               # CI smoke test
@@ -88,6 +94,41 @@ npm run smoke
 node backend/refresh-all.js --dry-run    # Preview
 node backend/refresh-all.js              # Execute
 ```
+
+## Backend Scripts
+
+### Core Pipeline
+
+| Script | Purpose |
+|--------|---------|
+| `refresh-all.js` | Main orchestrator - decides what to scrape based on schedule |
+| `test-scrape-one.js` | Scrape single IG profile → screenshot + bio links + external HTML |
+| `process-scraped.js` | Enrich scraped data: OCR classification + LLM parsing |
+| `sync/to-frontend.js` | Export SQLite → `data/communities.json` |
+
+### Classification
+
+| Script | Purpose |
+|--------|---------|
+| `lib/ocr.js` | OCR extraction (tesseract.js) + keyword/LLM classification |
+| `test-llm-classify.js` | Test OCR + LLM classification on screenshots |
+| `investigate-festivals.js` | One-time: detect festivals that are actually hybrids |
+
+### Data Quality
+
+| Script | Purpose |
+|--------|---------|
+| `validate-instagram-handles.js` | Validate handles are swing-related |
+| `check-scrape-status.js` | Show scraping status for all entries |
+| `cleanup-events.js` | Remove past events from database |
+
+### Legacy (still available)
+
+| Script | Purpose |
+|--------|---------|
+| `parse-with-llm.js` | Parse IG posts with LLM (original approach) |
+| `parse-external.js` | Redirect → `process-scraped.js` |
+| `generate-frontend-json.js` | Redirect → `sync/to-frontend.js` |
 
 ## Documentation
 
