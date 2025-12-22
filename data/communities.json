@@ -1315,25 +1315,175 @@
       "website": "https://grenobleswing.com",
       "linktree": null,
       "scraped": {
-        "lastScraped": "2025-12-22T18:09:08.080Z",
+        "lastScraped": "2025-12-22T18:51:05.914Z",
         "upcomingEvents": [
           {
-            "date": "2026-01-09",
-            "title": "Super Flow On 2026",
+            "date": "2026-01-01",
+            "title": "Super Flow On",
             "type": "festival",
-            "sourceUrl": "https://www.grenobleswing.com/page/3569060-super-flow-on-2026"
+            "sourceUrl": "https://www.grenobleswing.com/page/2563525-presentation-des-festivals"
+          },
+          {
+            "date": "2026-01-07",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau shim sham",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-01-09",
+            "title": "Super Flow On",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
           },
           {
             "date": "2026-01-10",
-            "title": "Super Flow On 2026",
+            "title": "Super Flow On",
             "type": "festival",
-            "sourceUrl": "https://www.grenobleswing.com/page/3569060-super-flow-on-2026"
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
           },
           {
             "date": "2026-01-11",
-            "title": "Super Flow On 2026",
+            "title": "Super Flow On",
             "type": "festival",
-            "sourceUrl": "https://www.grenobleswing.com/page/3569060-super-flow-on-2026"
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-01-14",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau tranky doo",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-01-18",
+            "title": "Balboa Brunch",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-01-21",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau tranky doo",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-01-28",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau tranky doo",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-01-30",
+            "title": "Soirée Blues",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-02-04",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau big apple",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-02-14",
+            "title": "Soirée Swing \"spéciale débutants\"",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-02-22",
+            "title": "Balboa Brunch",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-02-25",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau big apple",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-04",
+            "title": "Ateliers Jazz Roots - Thème \"Rythmique\" - Niveau big apple",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-06",
+            "title": "Advanced Fridays BALBOA",
+            "type": "class",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-06",
+            "title": "Fallin' In Blues",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-07",
+            "title": "Fallin' In Blues",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-08",
+            "title": "Fallin' In Blues",
+            "type": "festival",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-22",
+            "title": "Balboa Brunch",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-03-29",
+            "title": "Orchestre Sycamore Sisters au Kiosque",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-04-11",
+            "title": "Soirée Swing",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-04-17",
+            "title": "Tiny Balboa",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-04-18",
+            "title": "Tiny Balboa",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-04-19",
+            "title": "Tiny Balboa",
+            "type": "workshop",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-05-29",
+            "title": "Advanced Fridays BALBOA",
+            "type": "class",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-05-31",
+            "title": "Balboa Brunch",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
+          },
+          {
+            "date": "2026-06-14",
+            "title": "Orchestre les Bildy (orchestre de Grenoble Swing) au Kiosque",
+            "type": "social",
+            "sourceUrl": "https://www.grenobleswing.com/page/1810737-agenda"
           },
           {
             "date": "2026-11-15",
@@ -2318,7 +2468,7 @@
       "name": "Jurassic Bal",
       "city": "Canberra",
       "country": "Australia",
-      "entityType": "hybrid",
+      "entityType": "festival",
       "region": "asia",
       "styles": [
         "bal"
