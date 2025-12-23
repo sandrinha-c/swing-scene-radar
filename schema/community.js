@@ -142,7 +142,7 @@ function normalizeCommunity(data) {
     endDate: input.endDate,
     dates: input.dates,
     festivalDates: input.festivalDates,
-    festival: input.festival,
+    festival: input.festival || input.festivalInfo,  // Accept both naming conventions
     scraped: normalizeScraped(input.scraped)
   };
 }

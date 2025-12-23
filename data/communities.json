@@ -1500,7 +1500,11 @@
         ],
         "upcomingDates": []
       },
-      "email": "tshirts@grenobleswing.com"
+      "email": "tshirts@grenobleswing.com",
+      "festivalInfo": {
+        "name": "Grenoble Swing Festivals",
+        "website": "https://grenobleswing.com"
+      }
     },
     {
       "username": "hepcatclub",
