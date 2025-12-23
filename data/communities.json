@@ -196,30 +196,6 @@
         "lastScraped": "2025-12-12T12:24:16.212Z",
         "upcomingEvents": [
           {
-            "date": "2026-03-05",
-            "title": "Berlin Balboa Weekend 2026",
-            "type": "festival",
-            "sourceUrl": "https://www.berlinbalboaweekend.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOY1oNGdaiGpmFa2upuWBstbUg0jXFXiHp6HlBV3cIygthxhXnUBMnb5wGh0_aem_zLbLiVVQBnmk_TU7Dwc2HA"
-          },
-          {
-            "date": "2026-03-06",
-            "title": "Berlin Balboa Weekend 2026",
-            "type": "festival",
-            "sourceUrl": "https://www.berlinbalboaweekend.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOY1oNGdaiGpmFa2upuWBstbUg0jXFXiHp6HlBV3cIygthxhXnUBMnb5wGh0_aem_zLbLiVVQBnmk_TU7Dwc2HA"
-          },
-          {
-            "date": "2026-03-07",
-            "title": "Berlin Balboa Weekend 2026",
-            "type": "festival",
-            "sourceUrl": "https://www.berlinbalboaweekend.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOY1oNGdaiGpmFa2upuWBstbUg0jXFXiHp6HlBV3cIygthxhXnUBMnb5wGh0_aem_zLbLiVVQBnmk_TU7Dwc2HA"
-          },
-          {
-            "date": "2026-03-08",
-            "title": "Berlin Balboa Weekend 2026",
-            "type": "festival",
-            "sourceUrl": "https://www.berlinbalboaweekend.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOY1oNGdaiGpmFa2upuWBstbUg0jXFXiHp6HlBV3cIygthxhXnUBMnb5wGh0_aem_zLbLiVVQBnmk_TU7Dwc2HA"
-          },
-          {
             "date": "2026-01-01",
             "title": "Berlin Balboa Weekend 2026 - Friday Classes",
             "type": "class",
@@ -1176,90 +1152,6 @@
         "lastScraped": "2025-12-19T05:16:50.493Z",
         "upcomingEvents": [
           {
-            "date": "2026-03-28",
-            "title": "Balboa Adventurer Class 1",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-28",
-            "title": "Shag Adventurer Class 1",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-28",
-            "title": "Balboa Adventurer Class 2",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-28",
-            "title": "Shag Adventurer Class 2",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-28",
-            "title": "Shag Explorer Class 1",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-28",
-            "title": "Balboa Explorer Class 1",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-28",
-            "title": "Saturday Evening Social",
-            "type": "social",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Balboa Explorer Class 2",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Shag Explorer Class 2",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Balboa Explorer Class 3",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Shag Explorer Class 3",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Balboa Adventurer Class 3",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Shag Adventurer Class 3",
-            "type": "class",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
-            "date": "2026-03-29",
-            "title": "Sunday Evening Social",
-            "type": "social",
-            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
-          },
-          {
             "date": "2026-01-01",
             "title": "Fast Feet Fest 2026",
             "type": "festival",
@@ -1273,15 +1165,63 @@
           },
           {
             "date": "2026-03-28",
-            "title": "Grand Ball",
-            "type": "social",
-            "sourceUrl": "https://www.glasgowlindyhoppers.co.uk/fast-feet-fest-2026"
+            "title": "Balboa Adventurer Class 1",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
           },
           {
             "date": "2026-03-28",
             "title": "Balboa and Collegiate Shag classes",
             "type": "class",
             "sourceUrl": "https://www.glasgowlindyhoppers.co.uk/fast-feet-fest-2026"
+          },
+          {
+            "date": "2026-03-28",
+            "title": "Balboa Explorer Class 1",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-28",
+            "title": "Grand Ball",
+            "type": "social",
+            "sourceUrl": "https://www.glasgowlindyhoppers.co.uk/fast-feet-fest-2026"
+          },
+          {
+            "date": "2026-03-28",
+            "title": "Saturday Evening Social",
+            "type": "social",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-28",
+            "title": "Shag Adventurer Class 1",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-28",
+            "title": "Shag Explorer Class 1",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-29",
+            "title": "Balboa Adventurer Class 3",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-29",
+            "title": "Balboa and Collegiate Shag classes",
+            "type": "class",
+            "sourceUrl": "https://www.glasgowlindyhoppers.co.uk/fast-feet-fest-2026"
+          },
+          {
+            "date": "2026-03-29",
+            "title": "Balboa Explorer Class 2",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
           },
           {
             "date": "2026-03-29",
@@ -1291,9 +1231,21 @@
           },
           {
             "date": "2026-03-29",
-            "title": "Balboa and Collegiate Shag classes",
+            "title": "Shag Adventurer Class 3",
             "type": "class",
-            "sourceUrl": "https://www.glasgowlindyhoppers.co.uk/fast-feet-fest-2026"
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-29",
+            "title": "Shag Explorer Class 2",
+            "type": "class",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
+          },
+          {
+            "date": "2026-03-29",
+            "title": "Sunday Evening Social",
+            "type": "social",
+            "sourceUrl": "https://glasgowlindy.dancecloud.com/dance/38700"
           }
         ],
         "upcomingDates": []
@@ -1775,12 +1727,6 @@
         "lastScraped": "2025-12-19T05:16:38.670Z",
         "upcomingEvents": [
           {
-            "date": "2025-12-20",
-            "title": "Monthly social at the Globe, Newcastle",
-            "type": "social",
-            "sourceUrl": "http://www.hoodooblues.dance/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnf4KRjPAefq8NpxyTwWMcAUILeSLFdg9cDKxQ5qx1klc3IW51uUokHQr49pI_aem__022OwZLGzYzzXf5Ds8xvw"
-          },
-          {
             "date": "2026-09-18",
             "title": "Belta Weekender",
             "type": "festival",
@@ -1797,24 +1743,6 @@
             "title": "Belta Weekender",
             "type": "festival",
             "sourceUrl": "http://www.hoodooblues.dance/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnf4KRjPAefq8NpxyTwWMcAUILeSLFdg9cDKxQ5qx1klc3IW51uUokHQr49pI_aem__022OwZLGzYzzXf5Ds8xvw"
-          },
-          {
-            "date": "2025-12-20",
-            "title": "Hoodoo Blues - Christmas dance class, band and party",
-            "type": "class",
-            "sourceUrl": "https://www.eventbrite.co.uk/d/united-kingdom--newcastle-upon-tyne/hoodoo-blues/"
-          },
-          {
-            "date": "2025-12-20",
-            "title": "Christmas dance class, band and party",
-            "type": "class",
-            "sourceUrl": "https://www.eventbrite.co.uk/e/1939581503489"
-          },
-          {
-            "date": "2025-12-20",
-            "title": "Monthly Social at the Globe, Newcastle",
-            "type": "social",
-            "sourceUrl": "https://www.hoodooblues.dance"
           }
         ],
         "upcomingDates": []
@@ -2035,13 +1963,13 @@
         "upcomingEvents": [
           {
             "date": "2025-12-23",
-            "title": "Lindy hop新初級班（週二）",
+            "title": "Lindy hop 初中級（週二）",
             "type": "class",
             "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
           },
           {
             "date": "2025-12-23",
-            "title": "Lindy hop 初中級（週二）",
+            "title": "Lindy hop新初級班（週二）",
             "type": "class",
             "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
           },
@@ -2053,25 +1981,25 @@
           },
           {
             "date": "2025-12-27",
-            "title": "Balboa 初級班（週六）",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
-          },
-          {
-            "date": "2025-12-27",
             "title": "Balboa 初中級（週六）",
             "type": "class",
             "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
           },
           {
-            "date": "2025-12-30",
-            "title": "Lindy hop新初級班（週二）",
+            "date": "2025-12-27",
+            "title": "Balboa 初級班（週六）",
             "type": "class",
             "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
           },
           {
             "date": "2025-12-30",
             "title": "Lindy hop 初中級（週二）",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
+          },
+          {
+            "date": "2025-12-30",
+            "title": "Lindy hop新初級班（週二）",
             "type": "class",
             "sourceUrl": "https://forms.gle/nxJNueJ7wiGoKGL29?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn0TN5JvtjNCzlGaXOr3JA4V-JDWPA8o8GLuICTttjDIMvwAImHH2-7rYDdoo_aem_DDAiDYd4jwu4nVXGsfRArA"
           }
@@ -2115,14 +2043,14 @@
           },
           {
             "date": "2026-02-07",
-            "title": "Saturday Party with a band led by Steven Coombe",
-            "type": "social",
-            "sourceUrl": "https://jazzberry.swingwings.cz/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOTp4f9hVbh6L-0DFXnoU5GJI62F-vpEDjR20Jq28SlD_ZyqrWkvwaqeNOBQ_aem_rTQF1s7QFbzR9xrjgHp5Mg"
+            "title": "Saturday classes (multiple levels, topics, teachers, styles)",
+            "type": "class",
+            "sourceUrl": "https://jazzberry.swingwings.cz/#rozvrh"
           },
           {
-            "date": "2026-02-08",
-            "title": "Sunday classes (11:00 - 14:00)",
-            "type": "class",
+            "date": "2026-02-07",
+            "title": "Saturday Party with a band led by Steven Coombe",
+            "type": "social",
             "sourceUrl": "https://jazzberry.swingwings.cz/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOTp4f9hVbh6L-0DFXnoU5GJI62F-vpEDjR20Jq28SlD_ZyqrWkvwaqeNOBQ_aem_rTQF1s7QFbzR9xrjgHp5Mg"
           },
           {
@@ -2132,10 +2060,16 @@
             "sourceUrl": "https://jazzberry.swingwings.cz/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOTp4f9hVbh6L-0DFXnoU5GJI62F-vpEDjR20Jq28SlD_ZyqrWkvwaqeNOBQ_aem_rTQF1s7QFbzR9xrjgHp5Mg"
           },
           {
-            "date": "2026-02-07",
-            "title": "Saturday classes (multiple levels, topics, teachers, styles)",
-            "type": "class",
+            "date": "2026-02-08",
+            "title": "Sunday Chill (hangover soup, coffee, talks and live music in studio)",
+            "type": "social",
             "sourceUrl": "https://jazzberry.swingwings.cz/#rozvrh"
+          },
+          {
+            "date": "2026-02-08",
+            "title": "Sunday Chill (hangover soup, coffee, talks and live music)",
+            "type": "social",
+            "sourceUrl": "https://jazzberry.swingwings.cz/#registration"
           },
           {
             "date": "2026-02-08",
@@ -2145,27 +2079,9 @@
           },
           {
             "date": "2026-02-08",
-            "title": "Sunday Chill (hangover soup, coffee, talks and live music in studio)",
-            "type": "social",
-            "sourceUrl": "https://jazzberry.swingwings.cz/#rozvrh"
-          },
-          {
-            "date": "2026-02-07",
-            "title": "Saturday Classes (multiple levels, topics, teachers, styles)",
+            "title": "Sunday classes (11:00 - 14:00)",
             "type": "class",
-            "sourceUrl": "https://jazzberry.swingwings.cz/#registration"
-          },
-          {
-            "date": "2026-02-08",
-            "title": "Sunday Classes (11:00 - 14:00)",
-            "type": "class",
-            "sourceUrl": "https://jazzberry.swingwings.cz/#registration"
-          },
-          {
-            "date": "2026-02-08",
-            "title": "Sunday Chill (hangover soup, coffee, talks and live music)",
-            "type": "social",
-            "sourceUrl": "https://jazzberry.swingwings.cz/#registration"
+            "sourceUrl": "https://jazzberry.swingwings.cz/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOTp4f9hVbh6L-0DFXnoU5GJI62F-vpEDjR20Jq28SlD_ZyqrWkvwaqeNOBQ_aem_rTQF1s7QFbzR9xrjgHp5Mg"
           }
         ],
         "upcomingDates": []
@@ -2622,24 +2538,6 @@
             "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
           },
           {
-            "date": "2026-05-01",
-            "title": "3rd edition of Lazy River",
-            "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
-          },
-          {
-            "date": "2026-05-02",
-            "title": "3rd edition of Lazy River",
-            "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
-          },
-          {
-            "date": "2026-05-03",
-            "title": "3rd edition of Lazy River",
-            "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
-          },
-          {
             "date": "2026-04-30",
             "title": "Lazy River event",
             "type": "social",
@@ -2647,45 +2545,39 @@
           },
           {
             "date": "2026-05-01",
-            "title": "Lazy River event",
-            "type": "social",
-            "sourceUrl": "https://www.lazyriverfestival.com/schedule"
-          },
-          {
-            "date": "2026-05-02",
-            "title": "Lazy River event",
-            "type": "social",
-            "sourceUrl": "https://www.lazyriverfestival.com/schedule"
-          },
-          {
-            "date": "2026-05-03",
-            "title": "Lazy River event",
-            "type": "social",
-            "sourceUrl": "https://www.lazyriverfestival.com/schedule"
-          },
-          {
-            "date": "2026-04-30",
-            "title": "The 3rd edition of Lazy River",
+            "title": "3rd edition of Lazy River",
             "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com"
+            "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
           },
           {
             "date": "2026-05-01",
-            "title": "The 3rd edition of Lazy River",
-            "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com"
+            "title": "Lazy River event",
+            "type": "social",
+            "sourceUrl": "https://www.lazyriverfestival.com/schedule"
           },
           {
             "date": "2026-05-02",
-            "title": "The 3rd edition of Lazy River",
+            "title": "3rd edition of Lazy River",
             "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com"
+            "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
+          },
+          {
+            "date": "2026-05-02",
+            "title": "Lazy River event",
+            "type": "social",
+            "sourceUrl": "https://www.lazyriverfestival.com/schedule"
           },
           {
             "date": "2026-05-03",
-            "title": "The 3rd edition of Lazy River",
+            "title": "3rd edition of Lazy River",
             "type": "festival",
-            "sourceUrl": "http://www.lazyriverfestival.com"
+            "sourceUrl": "http://www.lazyriverfestival.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnl5UtIIwILGJpJWknavdfsPqLR0Mp4J8SJgKMPPqfAqlSXnb-M4OWRHtHDm0_aem_s0SDuYfWksqYNS0is_-ixg"
+          },
+          {
+            "date": "2026-05-03",
+            "title": "Lazy River event",
+            "type": "social",
+            "sourceUrl": "https://www.lazyriverfestival.com/schedule"
           }
         ],
         "upcomingDates": []
@@ -3270,48 +3162,6 @@
             "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
           },
           {
-            "date": "2026-05-22",
-            "title": "Madrid Swing Exchange 2026 Festival",
-            "type": "festival",
-            "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
-          },
-          {
-            "date": "2026-05-23",
-            "title": "Madrid Swing Exchange 2026 Festival",
-            "type": "festival",
-            "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
-          },
-          {
-            "date": "2026-05-24",
-            "title": "Madrid Swing Exchange 2026 Festival",
-            "type": "festival",
-            "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
-          },
-          {
-            "date": "2026-05-21",
-            "title": "VIII Madrid Swing Exchange",
-            "type": "festival",
-            "sourceUrl": "https://www.madforswing.es/evento/viii-madrid-swing-exchange/"
-          },
-          {
-            "date": "2026-05-22",
-            "title": "VIII Madrid Swing Exchange",
-            "type": "festival",
-            "sourceUrl": "https://www.madforswing.es/evento/viii-madrid-swing-exchange/"
-          },
-          {
-            "date": "2026-05-23",
-            "title": "VIII Madrid Swing Exchange",
-            "type": "festival",
-            "sourceUrl": "https://www.madforswing.es/evento/viii-madrid-swing-exchange/"
-          },
-          {
-            "date": "2026-05-24",
-            "title": "VIII Madrid Swing Exchange",
-            "type": "festival",
-            "sourceUrl": "https://www.madforswing.es/evento/viii-madrid-swing-exchange/"
-          },
-          {
             "date": "2026-05-21",
             "title": "VIII Madrid Swing Exchange 2026",
             "type": "festival",
@@ -3319,15 +3169,33 @@
           },
           {
             "date": "2026-05-22",
+            "title": "Madrid Swing Exchange 2026 Festival",
+            "type": "festival",
+            "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
+          },
+          {
+            "date": "2026-05-22",
             "title": "VIII Madrid Swing Exchange 2026",
             "type": "festival",
             "sourceUrl": "http://www.madridswingexchange.es/"
           },
           {
             "date": "2026-05-23",
+            "title": "Madrid Swing Exchange 2026 Festival",
+            "type": "festival",
+            "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
+          },
+          {
+            "date": "2026-05-23",
             "title": "VIII Madrid Swing Exchange 2026",
             "type": "festival",
             "sourceUrl": "http://www.madridswingexchange.es/"
+          },
+          {
+            "date": "2026-05-24",
+            "title": "Madrid Swing Exchange 2026 Festival",
+            "type": "festival",
+            "sourceUrl": "https://madridswingexchange.es/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQWBHjZiX3xHTBAPzvOxe0y6lRwHp5wdCKJgXMGW3mwFqcxlM3B8bAiA0FQU_aem_E2-NTjXAGPpoW8lB14W8Hw"
           },
           {
             "date": "2026-05-24",
@@ -3369,38 +3237,38 @@
             "sourceUrl": "http://blues.rmswing.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnmSbt0WXfqcNgYOVsohEvCFT2OJA5Zy-gpfh6Q8EoHFj_j3YkC0bvGlvAfwI_aem_BwxCxNQF3Rq4q21wKRcEbQ"
           },
           {
+            "date": "2026-01-29",
+            "title": "Opening Party at Ono2 with Capitain Swing",
+            "type": "social",
+            "sourceUrl": "https://blues.rmswing.de/parties/"
+          },
+          {
             "date": "2026-01-30",
             "title": "Frankfurt Blues Weekend – Mainhatten Blues Festival",
             "type": "festival",
             "sourceUrl": "http://blues.rmswing.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnmSbt0WXfqcNgYOVsohEvCFT2OJA5Zy-gpfh6Q8EoHFj_j3YkC0bvGlvAfwI_aem_BwxCxNQF3Rq4q21wKRcEbQ"
           },
           {
-            "date": "2026-01-31",
-            "title": "Frankfurt Blues Weekend – Mainhatten Blues Festival",
+            "date": "2026-01-30",
+            "title": "Mainhatten Blues Frankfurt Blues Weekend",
             "type": "festival",
-            "sourceUrl": "http://blues.rmswing.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnmSbt0WXfqcNgYOVsohEvCFT2OJA5Zy-gpfh6Q8EoHFj_j3YkC0bvGlvAfwI_aem_BwxCxNQF3Rq4q21wKRcEbQ"
+            "sourceUrl": "https://mainhatten-blues.swingdance.services/?fbclid=IwY2xjawM0mFZleHRuA2FlbQIxMAABHlvzATlk3OshhTk7jV33xNQNGalaWkXxXm3kTsFTP0VEJFskuMhLSKOwcL4y_aem_T5dyGdfh4xa1hW5RbeabrQ"
           },
           {
-            "date": "2026-02-01",
-            "title": "Frankfurt Blues Weekend – Mainhatten Blues Festival",
-            "type": "festival",
-            "sourceUrl": "http://blues.rmswing.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnmSbt0WXfqcNgYOVsohEvCFT2OJA5Zy-gpfh6Q8EoHFj_j3YkC0bvGlvAfwI_aem_BwxCxNQF3Rq4q21wKRcEbQ"
+            "date": "2026-01-30",
+            "title": "Open level Taster classes",
+            "type": "trial",
+            "sourceUrl": "https://blues.rmswing.de/parties/"
+          },
+          {
+            "date": "2026-01-30",
+            "title": "Party at Ballhaus Höchst with the Stef Rosen Organ Trio feat. Marko Jovanovic",
+            "type": "social",
+            "sourceUrl": "https://blues.rmswing.de/parties/"
           },
           {
             "date": "2026-01-30",
             "title": "Taster Class",
-            "type": "class",
-            "sourceUrl": "https://blues.rmswing.de/classes/"
-          },
-          {
-            "date": "2026-01-31",
-            "title": "Slow Track / Solo Track",
-            "type": "class",
-            "sourceUrl": "https://blues.rmswing.de/classes/"
-          },
-          {
-            "date": "2026-01-31",
-            "title": "Slow Track / Solo",
             "type": "class",
             "sourceUrl": "https://blues.rmswing.de/classes/"
           },
@@ -3412,9 +3280,45 @@
           },
           {
             "date": "2026-01-31",
+            "title": "Frankfurt Blues Weekend – Mainhatten Blues Festival",
+            "type": "festival",
+            "sourceUrl": "http://blues.rmswing.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnmSbt0WXfqcNgYOVsohEvCFT2OJA5Zy-gpfh6Q8EoHFj_j3YkC0bvGlvAfwI_aem_BwxCxNQF3Rq4q21wKRcEbQ"
+          },
+          {
+            "date": "2026-01-31",
+            "title": "Mainhatten Blues Frankfurt Blues Weekend",
+            "type": "festival",
+            "sourceUrl": "https://mainhatten-blues.swingdance.services/?fbclid=IwY2xjawM0mFZleHRuA2FlbQIxMAABHlvzATlk3OshhTk7jV33xNQNGalaWkXxXm3kTsFTP0VEJFskuMhLSKOwcL4y_aem_T5dyGdfh4xa1hW5RbeabrQ"
+          },
+          {
+            "date": "2026-01-31",
+            "title": "Open Level Taster classes",
+            "type": "trial",
+            "sourceUrl": "https://blues.rmswing.de/parties/"
+          },
+          {
+            "date": "2026-01-31",
+            "title": "Party at Ballhaus Höchst with The Stef Rosen Organ Trio",
+            "type": "social",
+            "sourceUrl": "https://blues.rmswing.de/parties/"
+          },
+          {
+            "date": "2026-01-31",
+            "title": "Slow Track / Solo Track",
+            "type": "class",
+            "sourceUrl": "https://blues.rmswing.de/classes/"
+          },
+          {
+            "date": "2026-01-31",
             "title": "Taster Class",
             "type": "class",
             "sourceUrl": "https://blues.rmswing.de/classes/"
+          },
+          {
+            "date": "2026-02-01",
+            "title": "Closing party at Ballhaus Höchst with the bluespapas",
+            "type": "social",
+            "sourceUrl": "https://blues.rmswing.de/parties/"
           },
           {
             "date": "2026-02-01",
@@ -3430,6 +3334,18 @@
           },
           {
             "date": "2026-02-01",
+            "title": "Frankfurt Blues Weekend – Mainhatten Blues Festival",
+            "type": "festival",
+            "sourceUrl": "http://blues.rmswing.de/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnmSbt0WXfqcNgYOVsohEvCFT2OJA5Zy-gpfh6Q8EoHFj_j3YkC0bvGlvAfwI_aem_BwxCxNQF3Rq4q21wKRcEbQ"
+          },
+          {
+            "date": "2026-02-01",
+            "title": "Mainhatten Blues Frankfurt Blues Weekend",
+            "type": "festival",
+            "sourceUrl": "https://mainhatten-blues.swingdance.services/?fbclid=IwY2xjawM0mFZleHRuA2FlbQIxMAABHlvzATlk3OshhTk7jV33xNQNGalaWkXxXm3kTsFTP0VEJFskuMhLSKOwcL4y_aem_T5dyGdfh4xa1hW5RbeabrQ"
+          },
+          {
+            "date": "2026-02-01",
             "title": "Slow Track / Solo Track",
             "type": "class",
             "sourceUrl": "https://blues.rmswing.de/classes/"
@@ -3439,60 +3355,6 @@
             "title": "Taster Class",
             "type": "class",
             "sourceUrl": "https://blues.rmswing.de/classes/"
-          },
-          {
-            "date": "2026-01-29",
-            "title": "Opening Party at Ono2 with Capitain Swing",
-            "type": "social",
-            "sourceUrl": "https://blues.rmswing.de/parties/"
-          },
-          {
-            "date": "2026-01-30",
-            "title": "Open level Taster classes",
-            "type": "trial",
-            "sourceUrl": "https://blues.rmswing.de/parties/"
-          },
-          {
-            "date": "2026-01-30",
-            "title": "Party at Ballhaus Höchst with the Stef Rosen Organ Trio feat. Marko Jovanovic",
-            "type": "social",
-            "sourceUrl": "https://blues.rmswing.de/parties/"
-          },
-          {
-            "date": "2026-01-31",
-            "title": "Open Level Taster classes",
-            "type": "trial",
-            "sourceUrl": "https://blues.rmswing.de/parties/"
-          },
-          {
-            "date": "2026-01-31",
-            "title": "Party at Ballhaus Höchst with The Stef Rosen Organ Trio",
-            "type": "social",
-            "sourceUrl": "https://blues.rmswing.de/parties/"
-          },
-          {
-            "date": "2026-02-01",
-            "title": "Closing party at Ballhaus Höchst with the bluespapas",
-            "type": "social",
-            "sourceUrl": "https://blues.rmswing.de/parties/"
-          },
-          {
-            "date": "2026-01-30",
-            "title": "Mainhatten Blues Frankfurt Blues Weekend",
-            "type": "festival",
-            "sourceUrl": "https://mainhatten-blues.swingdance.services/?fbclid=IwY2xjawM0mFZleHRuA2FlbQIxMAABHlvzATlk3OshhTk7jV33xNQNGalaWkXxXm3kTsFTP0VEJFskuMhLSKOwcL4y_aem_T5dyGdfh4xa1hW5RbeabrQ"
-          },
-          {
-            "date": "2026-01-31",
-            "title": "Mainhatten Blues Frankfurt Blues Weekend",
-            "type": "festival",
-            "sourceUrl": "https://mainhatten-blues.swingdance.services/?fbclid=IwY2xjawM0mFZleHRuA2FlbQIxMAABHlvzATlk3OshhTk7jV33xNQNGalaWkXxXm3kTsFTP0VEJFskuMhLSKOwcL4y_aem_T5dyGdfh4xa1hW5RbeabrQ"
-          },
-          {
-            "date": "2026-02-01",
-            "title": "Mainhatten Blues Frankfurt Blues Weekend",
-            "type": "festival",
-            "sourceUrl": "https://mainhatten-blues.swingdance.services/?fbclid=IwY2xjawM0mFZleHRuA2FlbQIxMAABHlvzATlk3OshhTk7jV33xNQNGalaWkXxXm3kTsFTP0VEJFskuMhLSKOwcL4y_aem_T5dyGdfh4xa1hW5RbeabrQ"
           },
           {
             "date": "2026-02-02",
@@ -5080,30 +4942,6 @@
         "scheduleDescription": "每週四 20:00-22:00",
         "upcomingEvents": [
           {
-            "date": "2025-12-27",
-            "title": "【週末工作坊】SUGAR PUSH 超級。進化工作坊",
-            "type": "workshop",
-            "sourceUrl": "https://www.switchtaipei.com/portfolio/items/sugar-push-12-27-28"
-          },
-          {
-            "date": "2025-12-28",
-            "title": "【週末工作坊】SUGAR PUSH 超級。進化工作坊",
-            "type": "workshop",
-            "sourceUrl": "https://www.switchtaipei.com/portfolio/items/sugar-push-12-27-28"
-          },
-          {
-            "date": "2025-12-27",
-            "title": "SUGAR PUSH 超級。進化工作坊",
-            "type": "workshop",
-            "sourceUrl": "https://www.switchtaipei.com/"
-          },
-          {
-            "date": "2025-12-28",
-            "title": "SUGAR PUSH 超級。進化工作坊",
-            "type": "workshop",
-            "sourceUrl": "https://www.switchtaipei.com/"
-          },
-          {
             "date": "2025-12-23",
             "title": "Solo Drop-in w/ Jason",
             "type": "class",
@@ -5114,6 +4952,18 @@
             "title": "【週四】年末特別課：冠軍排舞學起來！ ft. 小卡與 Jason",
             "type": "workshop",
             "sourceUrl": "https://www.switchtaipei.com/store/products/thursdayspecial"
+          },
+          {
+            "date": "2025-12-27",
+            "title": "【週末工作坊】SUGAR PUSH 超級。進化工作坊",
+            "type": "workshop",
+            "sourceUrl": "https://www.switchtaipei.com/portfolio/items/sugar-push-12-27-28"
+          },
+          {
+            "date": "2025-12-28",
+            "title": "【週末工作坊】SUGAR PUSH 超級。進化工作坊",
+            "type": "workshop",
+            "sourceUrl": "https://www.switchtaipei.com/portfolio/items/sugar-push-12-27-28"
           }
         ],
         "upcomingDates": [
@@ -5313,24 +5163,6 @@
             "title": "The Mess Around 2026 Festival",
             "type": "festival",
             "sourceUrl": "https://hofstadhop.com/mess-around/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnQMpUJx1FZiwjeDdteHG4BeHJ-e-krYsGZBpq-XUtO97M8e7uhcL1MqtLfy4_aem__87SWUQ132IaZYEkKD8QOQ"
-          },
-          {
-            "date": "2026-01-09",
-            "title": "The Mess Around Festival 2026",
-            "type": "festival",
-            "sourceUrl": "https://hofstadhop.com/mess-around/"
-          },
-          {
-            "date": "2026-01-10",
-            "title": "The Mess Around Festival 2026",
-            "type": "festival",
-            "sourceUrl": "https://hofstadhop.com/mess-around/"
-          },
-          {
-            "date": "2026-01-11",
-            "title": "The Mess Around Festival 2026",
-            "type": "festival",
-            "sourceUrl": "https://hofstadhop.com/mess-around/"
           }
         ],
         "upcomingDates": []
@@ -5668,22 +5500,34 @@
         "scheduleDescription": "週一魚卵班",
         "upcomingEvents": [
           {
-            "date": "2025-12-22",
-            "title": "Swing Out 四週速成班",
+            "date": "2025-12-24",
+            "title": "週三魚卵班",
             "type": "class",
-            "sourceUrl": "https://smoo.tw"
-          },
-          {
-            "date": "2025-12-29",
-            "title": "Swing Out 四週速成班",
-            "type": "class",
-            "sourceUrl": "https://smoo.tw"
+            "sourceUrl": "https://smoo.tw/"
           },
           {
             "date": "2025-12-24",
             "title": "週三魚卵班｜Lindy Hop 基礎入門",
             "type": "class",
             "sourceUrl": "https://smoo.tw"
+          },
+          {
+            "date": "2025-12-25",
+            "title": "聖誕 Swing 體驗課 (體驗時間 19:30–20:00)",
+            "type": "trial",
+            "sourceUrl": "https://smoo.tw/Event/Details/19?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOcZgYW7U7_1ZJ68A2Vw166KK3b9qOqe1DgjMOajl_uGIMCvmFDJ_ugpS8Jg_aem_JqXdRJo-77fkxKLkO82ImA"
+          },
+          {
+            "date": "2025-12-25",
+            "title": "聖誕搖擺舞會",
+            "type": "social",
+            "sourceUrl": "https://smoo.tw/Event/Details/19?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOcZgYW7U7_1ZJ68A2Vw166KK3b9qOqe1DgjMOajl_uGIMCvmFDJ_ugpS8Jg_aem_JqXdRJo-77fkxKLkO82ImA"
+          },
+          {
+            "date": "2025-12-25",
+            "title": "聖誕舞會 Christmas Swing Party",
+            "type": "social",
+            "sourceUrl": "https://smoo.tw/"
           },
           {
             "date": "2025-12-25",
@@ -5698,16 +5542,22 @@
             "sourceUrl": "https://smoo.tw"
           },
           {
-            "date": "2025-12-22",
+            "date": "2025-12-29",
             "title": "12 月虱目魚班｜Swing Out 四週速成班",
             "type": "class",
             "sourceUrl": "https://smoo.tw/Course/Enroll/14"
           },
           {
             "date": "2025-12-29",
+            "title": "Swing Out 四週速成班",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw"
+          },
+          {
+            "date": "2026-01-05",
             "title": "12 月虱目魚班｜Swing Out 四週速成班",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Enroll/14"
+            "sourceUrl": "https://smoo.tw/Course/Details/14"
           },
           {
             "date": "2026-01-12",
@@ -5732,42 +5582,6 @@
             "title": "週一魚卵班",
             "type": "class",
             "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg"
-          },
-          {
-            "date": "2025-12-24",
-            "title": "週三魚卵班",
-            "type": "class",
-            "sourceUrl": "https://smoo.tw/"
-          },
-          {
-            "date": "2025-12-25",
-            "title": "聖誕舞會 Christmas Swing Party",
-            "type": "social",
-            "sourceUrl": "https://smoo.tw/"
-          },
-          {
-            "date": "2025-12-25",
-            "title": "聖誕 Swing 體驗課 (體驗時間 19:30–20:00)",
-            "type": "trial",
-            "sourceUrl": "https://smoo.tw/Event/Details/19?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOcZgYW7U7_1ZJ68A2Vw166KK3b9qOqe1DgjMOajl_uGIMCvmFDJ_ugpS8Jg_aem_JqXdRJo-77fkxKLkO82ImA"
-          },
-          {
-            "date": "2025-12-25",
-            "title": "聖誕搖擺舞會",
-            "type": "social",
-            "sourceUrl": "https://smoo.tw/Event/Details/19?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOcZgYW7U7_1ZJ68A2Vw166KK3b9qOqe1DgjMOajl_uGIMCvmFDJ_ugpS8Jg_aem_JqXdRJo-77fkxKLkO82ImA"
-          },
-          {
-            "date": "2025-12-25",
-            "title": "🎄✨ 西市夢島市集｜聖誕舞會 Christmas Swing Party ✨🎄",
-            "type": "social",
-            "sourceUrl": "https://smoo.tw/Event/Enroll/19"
-          },
-          {
-            "date": "2026-01-05",
-            "title": "12 月虱目魚班｜Swing Out 四週速成班",
-            "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Details/14"
           }
         ],
         "upcomingDates": [
