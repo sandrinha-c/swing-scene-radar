@@ -74,3 +74,4 @@ nul
 # Local config overrides (do not commit)
 config/local.json
 backend/eng.traineddata
+backend/test-extract.js
