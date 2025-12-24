@@ -65,6 +65,9 @@ backend/data/test-scrape/
 # Chrome session data (contains login cookies - sensitive!)
 backend/data/chrome-session/
 
+# Google session data (contains login cookies - sensitive!)
+backend/data/google-session/
+
 # Null file (Windows artifact)
 nul
 
