@@ -8132,15 +8132,48 @@
       "entityType": "festival",
       "region": "europe",
       "styles": [
+        "bal",
         "lindy",
-        "solo"
+        "shag"
       ],
       "instagram": "https://instagram.com/upsidedownfestival_be",
       "website": "https://www.upsidedownfestival.be/",
       "linktree": null,
       "scraped": {
-        "upcomingEvents": [],
-        "upcomingDates": []
+        "upcomingEvents": [
+          {
+            "date": "2025-12-29",
+            "title": "Upside Down Festival - Day 3",
+            "type": "festival",
+            "sourceUrl": "https://www.upsidedownfestival.be/"
+          },
+          {
+            "date": "2025-12-30",
+            "title": "Upside Down Festival - Day 4",
+            "type": "festival",
+            "sourceUrl": "https://www.upsidedownfestival.be/"
+          },
+          {
+            "date": "2025-12-31",
+            "title": "Upside Down Festival - Day 5",
+            "type": "festival",
+            "sourceUrl": "https://www.upsidedownfestival.be/"
+          },
+          {
+            "date": "2026-12-27",
+            "title": "Upside Down Festival - Day 1",
+            "type": "festival",
+            "sourceUrl": "https://www.upsidedownfestival.be/"
+          },
+          {
+            "date": "2026-12-28",
+            "title": "Upside Down Festival - Day 2",
+            "type": "festival",
+            "sourceUrl": "https://www.upsidedownfestival.be/"
+          }
+        ],
+        "upcomingDates": [],
+        "lastScraped": "2025-12-29T11:45:17.706Z"
       },
       "festivalDates": {
         "startDate": "2025-12-27",
@@ -8181,22 +8214,67 @@
       "entityType": "festival",
       "region": "asia",
       "styles": [
-        "lindy",
         "bal",
-        "blues"
+        "blues",
+        "lindy"
       ],
       "instagram": "https://instagram.com/vietnamlindyexchange",
       "website": "http://www.thevlx.net",
       "linktree": null,
       "scraped": {
-        "upcomingEvents": [],
-        "upcomingDates": []
+        "upcomingEvents": [
+          {
+            "date": "2026-03-13",
+            "title": "Registration and Welcome dance",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          },
+          {
+            "date": "2026-03-14",
+            "title": "Dance By The Beach",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          },
+          {
+            "date": "2026-03-14",
+            "title": "Gala Buffet Dinner & Dance",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          },
+          {
+            "date": "2026-03-14",
+            "title": "Late Night Dance",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          },
+          {
+            "date": "2026-03-15",
+            "title": "Afternoon Tea Dance",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          },
+          {
+            "date": "2026-03-15",
+            "title": "Late Night Dance",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          },
+          {
+            "date": "2026-03-15",
+            "title": "Theme: (to be updated)",
+            "type": "festival",
+            "sourceUrl": "http://www.thevlx.net"
+          }
+        ],
+        "upcomingDates": [],
+        "lastScraped": "2025-12-29T11:46:07.754Z"
       },
       "festivalDates": {
         "startDate": "2026-03-13",
         "endDate": "2026-03-15",
         "raw": "13th Mar 2026 - 15th Mar 2026"
-      }
+      },
+      "email": "Sonyhoian@gmail.com"
     },
     {
       "username": "bexandco_",
@@ -8234,11 +8312,31 @@
         "solo"
       ],
       "instagram": "https://instagram.com/lindywhat.nijmegen",
-      "website": "https://whats-hop.com/",
+      "website": "https://lindynijmegen.org",
       "linktree": null,
       "scraped": {
-        "upcomingEvents": [],
-        "upcomingDates": []
+        "upcomingEvents": [
+          {
+            "date": "2026-02-13",
+            "title": "What's Hop!? Festival - Parties on Friday",
+            "type": "festival",
+            "sourceUrl": "https://whats-hop.com/"
+          },
+          {
+            "date": "2026-02-14",
+            "title": "What's Hop!? Festival - Parties on Saturday",
+            "type": "festival",
+            "sourceUrl": "https://whats-hop.com/"
+          },
+          {
+            "date": "2026-02-15",
+            "title": "What's Hop!? Festival - Parties on Sunday",
+            "type": "festival",
+            "sourceUrl": "https://whats-hop.com/"
+          }
+        ],
+        "upcomingDates": [],
+        "lastScraped": "2025-12-29T11:46:53.343Z"
       },
       "festivalDates": {
         "startDate": "2026-02-13",
@@ -8261,8 +8359,58 @@
       "website": "http://www.winterjump.com",
       "linktree": null,
       "scraped": {
-        "upcomingEvents": [],
-        "upcomingDates": []
+        "upcomingEvents": [
+          {
+            "date": "2026-02-19",
+            "title": "Winter Jump 2026 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-20",
+            "title": "Winter Jump 2025 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-20",
+            "title": "Winter Jump 2026 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-21",
+            "title": "Winter Jump 2025 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-21",
+            "title": "Winter Jump 2026 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-22",
+            "title": "Winter Jump 2025 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-22",
+            "title": "Winter Jump 2026 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          },
+          {
+            "date": "2026-02-23",
+            "title": "Winter Jump 2025 Lindy Hop festival",
+            "type": "festival",
+            "sourceUrl": "http://www.winterjump.com"
+          }
+        ],
+        "upcomingDates": [],
+        "lastScraped": "2025-12-29T11:47:55.284Z"
       },
       "festivalDates": {
         "startDate": "2026-02-19",
@@ -8307,61 +8455,11 @@
       "website": null,
       "linktree": "https://bio.site/swinggale",
       "scraped": {
-        "lastScraped": "2025-12-24T14:30:50.683Z",
+        "lastScraped": "2025-12-29T11:49:24.068Z",
         "confidence": "high",
         "scheduleDetected": "每週四",
         "scheduleDescription": "每週四 20:00-21:30",
-        "upcomingEvents": [
-          {
-            "date": "2026-01-05",
-            "title": "Lv 2 搖擺單元 LindyUp - For the follower: Swivel",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/3zycJu8sAjq72Rhu7",
-            "notes": null
-          },
-          {
-            "date": "2026-01-06",
-            "title": "大風搖擺 Level 2 搖擺單元 LindyUp",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/pYY57Q23EDKsDrKn7",
-            "notes": null
-          },
-          {
-            "date": "2026-01-12",
-            "title": "Lv 2 搖擺單元 LindyUp - Practice by yourself",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/3zycJu8sAjq72Rhu7",
-            "notes": null
-          },
-          {
-            "date": "2026-01-13",
-            "title": "大風搖擺 Level 2 搖擺單元 LindyUp",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/pYY57Q23EDKsDrKn7",
-            "notes": null
-          },
-          {
-            "date": "2026-01-19",
-            "title": "Lv 2 搖擺單元 LindyUp - 大風吹 - Jim's solo jazz special class",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/3zycJu8sAjq72Rhu7",
-            "notes": null
-          },
-          {
-            "date": "2026-01-20",
-            "title": "大風搖擺 Level 2 搖擺單元 LindyUp",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/pYY57Q23EDKsDrKn7",
-            "notes": null
-          },
-          {
-            "date": "2026-01-27",
-            "title": "大風搖擺 Level 2 搖擺單元 LindyUp",
-            "type": "class",
-            "sourceUrl": "https://forms.gle/pYY57Q23EDKsDrKn7",
-            "notes": null
-          }
-        ],
+        "upcomingEvents": [],
         "upcomingDates": [
           "2025-12-13"
         ]
@@ -8381,7 +8479,7 @@
       "website": "https://smoo.tw",
       "linktree": "https://smoo.tw",
       "scraped": {
-        "lastScraped": "2025-12-23T07:10:51.200Z",
+        "lastScraped": "2025-12-29T11:54:34.409Z",
         "regularSchedule": {
           "pattern": "每週一",
           "description": "週一魚卵班"
@@ -8393,50 +8491,103 @@
             "date": "2025-12-29",
             "title": "12 月虱目魚班｜Swing Out 四週速成班",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Enroll/14",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Enroll/14"
           },
           {
             "date": "2025-12-29",
-            "title": "Swing Out 四週速成班",
+            "title": "12 月虱目魚班｜Swing Out 四週速成班 - 第 3 堂：Open Position Swing Out",
             "type": "class",
-            "sourceUrl": "https://smoo.tw",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Details/14"
           },
           {
             "date": "2026-01-05",
             "title": "12 月虱目魚班｜Swing Out 四週速成班",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Details/14",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Enroll/14"
+          },
+          {
+            "date": "2026-01-05",
+            "title": "12 月虱目魚班｜Swing Out 四週速成班 - 第 4 堂：Swing Out Footwork & Variations",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/14"
           },
           {
             "date": "2026-01-12",
-            "title": "週一魚卵班",
+            "title": "一起跳進搖擺的世界！週一魚卵班開課啦",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Enroll/17"
+          },
+          {
+            "date": "2026-01-12",
+            "title": "週一魚卵班開課啦 - Lindy Hop 零基礎課程",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg"
           },
           {
             "date": "2026-01-19",
-            "title": "週一魚卵班",
+            "title": "一起跳進搖擺的世界！週一魚卵班開課啦",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Enroll/17"
+          },
+          {
+            "date": "2026-01-19",
+            "title": "週一魚卵班開課啦 - Lindy Hop 零基礎課程",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg"
           },
           {
             "date": "2026-01-26",
-            "title": "週一魚卵班",
+            "title": "一起跳進搖擺的世界！週一魚卵班開課啦",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Enroll/17"
+          },
+          {
+            "date": "2026-01-26",
+            "title": "週一魚卵班開課啦 - Lindy Hop 零基礎課程",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg"
           },
           {
             "date": "2026-02-02",
-            "title": "週一魚卵班",
+            "title": "一起跳進搖擺的世界！週一魚卵班開課啦",
             "type": "class",
-            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg",
-            "notes": null
+            "sourceUrl": "https://smoo.tw/Course/Enroll/17"
+          },
+          {
+            "date": "2026-02-02",
+            "title": "週一魚卵班開課啦 - Lindy Hop 零基礎課程",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/17?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqXC1-jBheQhctuaKb-HKcSnLvmY0mciZl6-puxNn5-7cAJSmvcy4smwJ49g_aem_VweyWgmHimNHHQhVT8lTdg"
+          },
+          {
+            "date": "2026-12-15",
+            "title": "12 月虱目魚班｜Swing Out 四週速成班",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Enroll/14"
+          },
+          {
+            "date": "2026-12-15",
+            "title": "12 月虱目魚班｜Swing Out 四週速成班 - 第 1 堂：Swing Out Basic",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/14"
+          },
+          {
+            "date": "2026-12-22",
+            "title": "12 月虱目魚班｜Swing Out 四週速成班",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Enroll/14"
+          },
+          {
+            "date": "2026-12-22",
+            "title": "12 月虱目魚班｜Swing Out 四週速成班 - 第 2 堂：Close Position Swing Out",
+            "type": "class",
+            "sourceUrl": "https://smoo.tw/Course/Details/14"
+          },
+          {
+            "date": "2026-12-25",
+            "title": "🎄✨ 西市夢島市集｜聖誕舞會 Christmas Swing Party ✨🎄",
+            "type": "social",
+            "sourceUrl": "https://smoo.tw/Event/Details/19?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnOcZgYW7U7_1ZJ68A2Vw166KK3b9qOqe1DgjMOajl_uGIMCvmFDJ_ugpS8Jg_aem_JqXdRJo-77fkxKLkO82ImA"
           }
         ],
         "upcomingDates": [
@@ -8455,20 +8606,227 @@
       "country": "Taiwan",
       "entityType": "community",
       "styles": [
-        "bal",
-        "lindy",
-        "shag",
-        "solo",
-        "wcs"
+        "lindy"
       ],
       "instagram": "https://instagram.com/sundancetainan",
       "website": null,
       "linktree": "https://linktr.ee/sundancetainan",
       "scraped": {
-        "lastScraped": "2025-12-23T00:36:39.147Z",
+        "lastScraped": "2025-12-29T12:00:24.562Z",
         "scheduleDetected": "每週三19:30~21:30",
         "scheduleDescription": "日舞的練習團",
-        "upcomingEvents": [],
+        "upcomingEvents": [
+          {
+            "date": "2026-06-01",
+            "title": "日舞台南．夏季初級A班",
+            "type": "class",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-06-01",
+            "title": "日舞台南．夏季初級B班",
+            "type": "class",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-06-30",
+            "title": "2025日舞台南夏季初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/nHeKjPMm4FevQ7oQ6"
+          },
+          {
+            "date": "2026-06-30",
+            "title": "2025日舞台南夏季初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/7htMgNQnpGduwbik6"
+          },
+          {
+            "date": "2026-07-07",
+            "title": "2025日舞台南夏季初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/nHeKjPMm4FevQ7oQ6"
+          },
+          {
+            "date": "2026-07-07",
+            "title": "2025日舞台南夏季初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/7htMgNQnpGduwbik6"
+          },
+          {
+            "date": "2026-07-14",
+            "title": "2025日舞台南夏季初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/nHeKjPMm4FevQ7oQ6"
+          },
+          {
+            "date": "2026-07-14",
+            "title": "2025日舞台南夏季初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/7htMgNQnpGduwbik6"
+          },
+          {
+            "date": "2026-07-21",
+            "title": "2025日舞台南夏季初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/nHeKjPMm4FevQ7oQ6"
+          },
+          {
+            "date": "2026-07-21",
+            "title": "2025日舞台南夏季初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/7htMgNQnpGduwbik6"
+          },
+          {
+            "date": "2026-07-28",
+            "title": "2025日舞台南夏季初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/nHeKjPMm4FevQ7oQ6"
+          },
+          {
+            "date": "2026-07-28",
+            "title": "2025日舞台南夏季初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/7htMgNQnpGduwbik6"
+          },
+          {
+            "date": "2026-09-01",
+            "title": "日舞台南．九月初級A班",
+            "type": "class",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-09-23",
+            "title": "2025日舞台南九月初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/SDicsjfDyyjWB9gt7"
+          },
+          {
+            "date": "2026-09-30",
+            "title": "2025日舞台南九月初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/SDicsjfDyyjWB9gt7"
+          },
+          {
+            "date": "2026-10-14",
+            "title": "2025日舞台南九月初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/SDicsjfDyyjWB9gt7"
+          },
+          {
+            "date": "2026-10-21",
+            "title": "2025日舞台南九月初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/SDicsjfDyyjWB9gt7"
+          },
+          {
+            "date": "2026-10-28",
+            "title": "2025日舞台南九月初級A班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/SDicsjfDyyjWB9gt7"
+          },
+          {
+            "date": "2026-11-01",
+            "title": "日舞台南．十一月初級B班",
+            "type": "class",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-11-01",
+            "title": "日舞台南．十一月初級C班",
+            "type": "class",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-11-24",
+            "title": "SWING DANCE Beginner-Level C Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/9cevBG8kYkvDmrGLA"
+          },
+          {
+            "date": "2026-11-25",
+            "title": "2025日舞台南十一月初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/hDrBFUAzdNphykFb7"
+          },
+          {
+            "date": "2026-11-30",
+            "title": "搖擺雪里 SWING DANCE PARTY：穿越時光的律動",
+            "type": "social",
+            "sourceUrl": "https://forms.gle/ydV1hDqRCgc7cBrH9"
+          },
+          {
+            "date": "2026-11-30",
+            "title": "日舞台南．11/30 搖擺雪里 報名表",
+            "type": "social",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-12-01",
+            "title": "SWING DANCE Beginner-Level C Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/9cevBG8kYkvDmrGLA"
+          },
+          {
+            "date": "2026-12-01",
+            "title": "日舞台南．十二月入門基礎A班",
+            "type": "class",
+            "sourceUrl": "https://linktr.ee/sundancetainan"
+          },
+          {
+            "date": "2026-12-08",
+            "title": "SWING DANCE Beginner-Level C Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/9cevBG8kYkvDmrGLA"
+          },
+          {
+            "date": "2026-12-09",
+            "title": "2025日舞台南十一月初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/hDrBFUAzdNphykFb7"
+          },
+          {
+            "date": "2026-12-12",
+            "title": "SWING DANCE Beginner-Level A Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/22kfQD6bQpaE2AHf8"
+          },
+          {
+            "date": "2026-12-15",
+            "title": "SWING DANCE Beginner-Level C Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/9cevBG8kYkvDmrGLA"
+          },
+          {
+            "date": "2026-12-16",
+            "title": "2025日舞台南十一月初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/hDrBFUAzdNphykFb7"
+          },
+          {
+            "date": "2026-12-19",
+            "title": "SWING DANCE Beginner-Level A Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/22kfQD6bQpaE2AHf8"
+          },
+          {
+            "date": "2026-12-22",
+            "title": "SWING DANCE Beginner-Level C Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/9cevBG8kYkvDmrGLA"
+          },
+          {
+            "date": "2026-12-23",
+            "title": "2025日舞台南十一月初級B班",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/hDrBFUAzdNphykFb7"
+          },
+          {
+            "date": "2026-12-26",
+            "title": "SWING DANCE Beginner-Level A Class",
+            "type": "class",
+            "sourceUrl": "https://forms.gle/22kfQD6bQpaE2AHf8"
+          }
+        ],
         "upcomingDates": [
           "2025-12-12",
           "2025-12-15",
